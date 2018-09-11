@@ -12,16 +12,20 @@
 		9A09A2C02147A46700C0384C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A09A2BE2147A46700C0384C /* Main.storyboard */; };
 		9A09A2C22147A46A00C0384C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A09A2C12147A46A00C0384C /* Assets.xcassets */; };
 		9A09A2C52147A46A00C0384C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A09A2C32147A46A00C0384C /* LaunchScreen.storyboard */; };
+		9A09A2D32147CE9A00C0384C /* customViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09A2D22147CE9A00C0384C /* customViewController.swift */; };
+		9A09A2D52147D54D00C0384C /* myCustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09A2D42147D54D00C0384C /* myCustomCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A09A2B72147A46700C0384C /* Page Stepper App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Page Stepper App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A09A2B72147A46700C0384C /* TabBarControllerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarControllerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A09A2BA2147A46700C0384C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A09A2BC2147A46700C0384C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A09A2BF2147A46700C0384C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A09A2C12147A46A00C0384C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A09A2C42147A46A00C0384C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A09A2C62147A46A00C0384C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A09A2D22147CE9A00C0384C /* customViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customViewController.swift; sourceTree = "<group>"; };
+		9A09A2D42147D54D00C0384C /* myCustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCustomCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,8 @@
 		9A09A2AE2147A46700C0384C = {
 			isa = PBXGroup;
 			children = (
-				9A09A2B92147A46700C0384C /* Page Stepper App */,
+				9A09A2D42147D54D00C0384C /* myCustomCellTableViewCell.swift */,
+				9A09A2B92147A46700C0384C /* TabBarControllApp */,
 				9A09A2B82147A46700C0384C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +51,31 @@
 		9A09A2B82147A46700C0384C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A09A2B72147A46700C0384C /* Page Stepper App.app */,
+				9A09A2B72147A46700C0384C /* TabBarControllerApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A09A2B92147A46700C0384C /* Page Stepper App */ = {
+		9A09A2B92147A46700C0384C /* TabBarControllApp */ = {
 			isa = PBXGroup;
 			children = (
 				9A09A2BA2147A46700C0384C /* AppDelegate.swift */,
 				9A09A2BC2147A46700C0384C /* ViewController.swift */,
 				9A09A2BE2147A46700C0384C /* Main.storyboard */,
+				9A09A2D22147CE9A00C0384C /* customViewController.swift */,
 				9A09A2C12147A46A00C0384C /* Assets.xcassets */,
 				9A09A2C32147A46A00C0384C /* LaunchScreen.storyboard */,
 				9A09A2C62147A46A00C0384C /* Info.plist */,
 			);
-			path = "Page Stepper App";
+			path = TabBarControllApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A09A2B62147A46700C0384C /* Page Stepper App */ = {
+		9A09A2B62147A46700C0384C /* TabBarControllerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A09A2C92147A46A00C0384C /* Build configuration list for PBXNativeTarget "Page Stepper App" */;
+			buildConfigurationList = 9A09A2C92147A46A00C0384C /* Build configuration list for PBXNativeTarget "TabBarControllerApp" */;
 			buildPhases = (
 				9A09A2B32147A46700C0384C /* Sources */,
 				9A09A2B42147A46700C0384C /* Frameworks */,
@@ -79,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Page Stepper App";
+			name = TabBarControllerApp;
 			productName = "Page Stepper App";
-			productReference = 9A09A2B72147A46700C0384C /* Page Stepper App.app */;
+			productReference = 9A09A2B72147A46700C0384C /* TabBarControllerApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A09A2B22147A46700C0384C /* Build configuration list for PBXProject "Page Stepper App" */;
+			buildConfigurationList = 9A09A2B22147A46700C0384C /* Build configuration list for PBXProject "TabBarControllerApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A09A2B62147A46700C0384C /* Page Stepper App */,
+				9A09A2B62147A46700C0384C /* TabBarControllerApp */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A09A2BD2147A46700C0384C /* ViewController.swift in Sources */,
+				9A09A2D32147CE9A00C0384C /* customViewController.swift in Sources */,
+				9A09A2D52147D54D00C0384C /* myCustomCellTableViewCell.swift in Sources */,
 				9A09A2BB2147A46700C0384C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Page Stepper App/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TabBarControllApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Page Stepper App/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TabBarControllApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A09A2B22147A46700C0384C /* Build configuration list for PBXProject "Page Stepper App" */ = {
+		9A09A2B22147A46700C0384C /* Build configuration list for PBXProject "TabBarControllerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A09A2C72147A46A00C0384C /* Debug */,
@@ -322,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A09A2C92147A46A00C0384C /* Build configuration list for PBXNativeTarget "Page Stepper App" */ = {
+		9A09A2C92147A46A00C0384C /* Build configuration list for PBXNativeTarget "TabBarControllerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A09A2CA2147A46A00C0384C /* Debug */,
